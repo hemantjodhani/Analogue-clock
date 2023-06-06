@@ -1,0 +1,162 @@
+*{
+    margin: 0px;
+    padding-left: 0px;
+}
+.clock-dial{
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    border: 10px solid #00758E;
+    border-radius: 50%;
+    position: relative;
+}
+.point{
+    background-color: #00758E;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    position: absolute;
+    top: 250px;
+    left: 240px;
+}
+.hour{
+    position: absolute;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.hour-1{
+    top: 40px;
+    right: 130px;
+}
+.hour-2{
+    top: 125px;
+    right: 45px;
+}
+.hour-3{
+    top: 235px;
+    right: 10px;
+}
+.hour-4{
+    top: 340px;
+    right: 45px;
+}
+.hour-5{
+    top: 430px;
+    right: 130px;
+}
+.hour-6{
+    bottom: 10px;
+    left: 240px;
+}
+.hour-7{
+    top: 430px;
+    left: 130px;
+}
+.hour-8{
+    top: 345px;
+    left: 45px;
+}
+.hour-9{
+    top: 235px;
+    left: 10px;
+}
+
+.hour-10{
+    top: 125px;
+    left: 45px;
+}
+.hour-11{
+    top: 40px;
+    left: 130px;
+}
+.hour-12{
+    top: 10px;
+    left: 235px;
+}
+.brand{
+    text-align: center;
+    margin-top: 90px;
+    color: #00758E;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+.minute-hand-wrapper{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    /* background-color: #00758E; */
+    top: 50px;
+    left: 50px;
+    border-radius: 50% ;
+}
+.minute-hand .hand{
+    background-color: #00758E;
+    position: absolute;
+    width: 4px;
+    height: 200px;
+    left: 198px;
+}
+.minute-hand .arrow{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #00758E;
+    font-weight: bold;
+    transform: rotateX(180deg);
+    position: absolute;
+    left: 191.5px;
+    top: -7px
+}
+.hour-hand-wrapper{
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    /* background-color: #00758E; */
+    top: 100px;
+    left: 100px;
+    border-radius: 50% ;
+}
+.hour-hand{
+    position: relative;
+}
+.hour-hand .hand{
+    background-color: #00758E;
+    position: absolute;
+    width: 4px;
+    height: 150px;
+    left: 148px;
+}
+
+.hour-hand .arrow{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #00758E;
+    font-weight: bold;
+    transform: rotateX(180deg);
+    position: absolute;
+    left: 141.5px;
+    top: -7px
+}
+
+.second-hand-wrapper{
+    position: absolute;
+    height: 350px;
+    width: 350px;
+    /* background-color: #00758E; */
+    top: 75px;
+    left: 75px;
+    border-radius: 50% ;
+}
+.second-hand{
+    position: relative;
+}
+
+.second-hand .hand{
+    background-color: #00758E;
+    position: absolute;
+    width: 2px;
+    height: 175px;
+    left: 174px;
+}
